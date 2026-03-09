@@ -75,13 +75,16 @@ O novo comando vai criar um novo arquivo na pasta View.
 
 #### Passo 1:
 Execute o comando:
+
                 composer install  
 
 #### Passo 2:
 arquivo .env (Arquivo de Variável)
 
 Copie e cole o arquivo.env:
+
                 CTRL C e CTRL V
+                
 OBS: Deixe a cópia como (.env)
 
 OBS: Nunca apague o arquivo (.env.example)
@@ -90,7 +93,9 @@ OBS: Nunca apague o arquivo (.env.example)
 Gerar chave do projeto
 
 Abrir o terminal e executar:
+
                 php artisan key:generate
+                
 #### Passo 4:
 ORM – Object Relational Mapping Utiliza a linguagem escolhida pelo framework ou a própria lib para trabalhar com queries de bancos de dados através de arquivos chamados migrations
 
@@ -101,7 +106,9 @@ Para criar up();
 Para desfazer down();
 
 Abrir terminal e executar:
+
                 php artisan migrate
+                
 OBS: cria todas as migrations que não existem
 
 OBS: Dar o yes, para confirmar
@@ -117,4 +124,5 @@ OBS: npm run build (sempre que tiver alguma alteração no front)
 
 #### Passo 6:
 Rode o projeto:
+
                 Composer run dev
