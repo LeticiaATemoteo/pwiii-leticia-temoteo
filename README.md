@@ -91,7 +91,6 @@ Gerar chave do projeto
 
 Abrir o terminal e executar:
                 php artisan key:generate
-
 #### Passo 4:
 ORM – Object Relational Mapping Utiliza a linguagem escolhida pelo framework ou a própria lib para trabalhar com queries de bancos de dados através de arquivos chamados migrations
 
@@ -102,7 +101,6 @@ Para criar up();
 Para desfazer down();
 
 Abrir terminal e executar:
-
                 php artisan migrate
 OBS: cria todas as migrations que não existem
 
